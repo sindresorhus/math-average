@@ -26,6 +26,7 @@ mathAvg([1, 3]);
 ## Related
 
 - [math-sum](https://github.com/sindresorhus/math-sum) - Sum numbers
+- [math-clamp](https://github.com/sindresorhus/math-clamp) - Clamp a number
 
 
 ## License

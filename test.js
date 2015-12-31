@@ -1,9 +1,7 @@
-'use strict';
-var test = require('ava');
-var fn = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	t.assert(fn(1, 3) === 2);
-	t.assert(fn([1, 3]) === 2);
-	t.end();
+test(t => {
+	t.is(fn(1, 3), 2);
+	t.is(fn([1, 3]), 2);
 });

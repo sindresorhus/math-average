@@ -1,4 +1,4 @@
-# math-avg [![Build Status](https://travis-ci.org/sindresorhus/math-avg.svg?branch=master)](https://travis-ci.org/sindresorhus/math-avg)
+# math-avg
 
 > Get the average of numbers
 

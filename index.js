@@ -1,13 +1,11 @@
-'use strict';
-module.exports = function (x) {
-	x = Array.isArray(x) ? x : arguments;
+export default function mathAverage(...values) {
+	values = Array.isArray(values[0]) ? values[0] : values;
 
-	var sum = 0;
-	var len = x.length;
+	let sum = 0;
 
-	for (var i = 0; i < len; i++) {
-		sum += x[i];
+	for (const value of values) {
+		sum += value;
 	}
 
-	return sum / len;
-};
+	return sum / values.length;
+}

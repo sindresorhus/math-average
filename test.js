@@ -1,7 +1,7 @@
 import test from 'ava';
-import fn from './';
+import mathAverage from './index.js';
 
-test(t => {
-	t.is(fn(1, 3), 2);
-	t.is(fn([1, 3]), 2);
+test('main', t => {
+	t.is(mathAverage(1, 3), 2);
+	t.is(mathAverage([1, 3]), 2);
 });

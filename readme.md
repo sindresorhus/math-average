@@ -1,17 +1,17 @@
-# math-avg
+# math-average
 
 > Get the average of numbers
 
 ## Install
 
 ```sh
-npm install math-avg
+npm install math-average
 ```
 
 ## Usage
 
 ```js
-import mathAverage from 'math-avg';
+import mathAverage from 'math-average';
 
 mathAverage(1, 3);
 //=> 2

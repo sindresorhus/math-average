@@ -1,9 +1,9 @@
 {
-	"name": "math-avg",
+	"name": "math-average",
 	"version": "2.0.0",
 	"description": "Get the average of numbers",
 	"license": "MIT",
-	"repository": "sindresorhus/math-avg",
+	"repository": "sindresorhus/math-average",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",

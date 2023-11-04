@@ -13,7 +13,7 @@
 	"type": "module",
 	"exports": "./index.js",
 	"engines": {
-		"node": ">=12"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -26,13 +26,12 @@
 		"average",
 		"number",
 		"numbers",
-		"num",
 		"add",
 		"count",
 		"array"
 	],
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"xo": "^0.39.1"
+		"ava": "^5.3.1",
+		"xo": "^0.56.0"
 	}
 }
